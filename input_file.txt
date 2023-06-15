@@ -1,0 +1,7 @@
+#Mandatory value:
+EventType->Process creation
+Image->C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe
+
+#Fill only one:
+CommandLine->C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj
+TargetFileName->

@@ -1,0 +1,606 @@
+a("","","","","","")
+b("","","","","","","","")
+
+a("File Create","2017-10-23 16:50:48.699669","","","","")
+b("","","","","","","","")
+
+a("File Create","2017-10-23 16:50:48.699669","","1184","","C:/Windows/System32/cmd.exe")
+b("","","","","","","","C:/file.txt:evil.exe")
+
+a("File Create","2017-10-23 16:50:48.699669","","1184","","C:/Windows/System32/cmd.exe")
+b("","","","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.938934","","1184","","C:/Windows/System32/cmd.exe")
+b("","","","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.938934","","5952","","SoundRecorder.exe")
+b("SoundRecorder /FILE test.wma /DURATION 30","","","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.938934","","5952","","SoundRecorder.exe")
+b("SoundRecorder /FILE test.wma /DURATION 30","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.938934","","5952","","SoundRecorder.exe")
+b("SoundRecorder /FILE test.wma /DURATION 30","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.938934","","5952","","SoundRecorder.exe")
+b("SoundRecorder /FILE test.wma /DURATION 30","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.997751","","5952","","SoundRecorder.exe")
+b("SoundRecorder /FILE test.wma /DURATION 30","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.997751","","5988","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.997751","","5988","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.997751","","5988","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:48.997751","","5988","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.019573","","5988","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.019573","","6000","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMON","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.019573","","6000","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMON","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.019573","","6000","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMON","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.019573","","6000","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMON","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.027575","","6000","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMON","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.027575","","6012","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.027575","","6012","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.027575","","6012","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.027575","","6012","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.071213","","6012","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.071213","","6024","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMONDRV","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.071213","","6024","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMONDRV","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.071213","","6024","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMONDRV","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.071213","","6024","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMONDRV","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.086775","","6024","","C:/Windows/System32/sc.exe")
+b("SC  QUERY SYSMONDRV","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.086775","","6040","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=6E9B0282F7EAEE284E0E6D909544DE2D,SHA256=4D1668FB5D66A972AC0FB7E3FEA69003D7FA50116B8F21E5F277972F0177C042","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.086775","","6040","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.086775","","6040","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.086775","","6040","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.249157","","6040","","C:/Windows/System32/find.exe")
+b("FIND  /I \RUNNING\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.249157","","6052","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.249157","","6052","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.249157","","6052","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.249157","","6052","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.264717","","6052","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.264717","","6064","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe /c REG QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse | FIND /I \LIMITBLANKPASSWORDUSE\","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.264717","","6064","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe /c REG QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse | FIND /I \LIMITBLANKPASSWORDUSE\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.264717","","6064","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe /c REG QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse | FIND /I \LIMITBLANKPASSWORDUSE\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.264717","","6064","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe /c REG QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse | FIND /I \LIMITBLANKPASSWORDUSE\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.280096","","6064","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe /c REG QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse | FIND /I \LIMITBLANKPASSWORDUSE\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.280096","","6076","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.280096","","6076","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.280096","","6076","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.280096","","6076","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.289251","","6076","","C:/Windows/System32/reg.exe")
+b("REG  QUERY \HKLM/System/CurrentControlSet/Control/Lsa\ /v LimitBlankPasswordUse","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.289251","","6084","","C:/Windows/System32/find.exe")
+b("FIND  /I \LIMITBLANKPASSWORDUSE\","","MD5=EDE11E768487C6FEFC1287E5CB653662,SHA256=405A70C2B6081E6FED2A4BAB7B0C233FFF022ACBBB3D2CC92CB8876D052DB9E4","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.289251","","6084","","C:/Windows/System32/find.exe")
+b("FIND  /I \LIMITBLANKPASSWORDUSE\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.289251","","6084","","C:/Windows/System32/find.exe")
+b("FIND  /I \LIMITBLANKPASSWORDUSE\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.289251","","6084","","C:/Windows/System32/find.exe")
+b("FIND  /I \LIMITBLANKPASSWORDUSE\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.311966","","6084","","C:/Windows/System32/find.exe")
+b("FIND  /I \LIMITBLANKPASSWORDUSE\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.311966","","6100","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe  /S /D /c\ ECHO\","","MD5=7B77266A870E8E64F55F87601675E83B,SHA256=6B78ED0BB79EAFBFCAC09D9A7BDC61657B1EA0E04D3B7E19411FD21426171B89","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.311966","","6100","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe  /S /D /c\ ECHO\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.311966","","6100","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe  /S /D /c\ ECHO\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.311966","","6100","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe  /S /D /c\ ECHO\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.330038","","6100","","C:/Windows/System32/cmd.exe")
+b("C:/Windows/system32/cmd.exe  /S /D /c\ ECHO\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.330038","","6112","","C:/Windows/System32/net.exe")
+b("NET  USER admin *","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.330038","","6112","","C:/Windows/System32/net.exe")
+b("NET  USER admin *","","MD5=8055B288B1F39855014A68BEC31D8E6D,SHA256=08F791037FD70209FD599C4F35088A7332DADFA6BE92D073C243C5CC79FEFE66","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.330038","","6112","","C:/Windows/System32/net.exe")
+b("NET  USER admin *","","MD5=8055B288B1F39855014A68BEC31D8E6D,SHA256=08F791037FD70209FD599C4F35088A7332DADFA6BE92D073C243C5CC79FEFE66","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.330038","","6112","","C:/Windows/System32/net.exe")
+b("NET  USER admin *","","MD5=8055B288B1F39855014A68BEC31D8E6D,SHA256=08F791037FD70209FD599C4F35088A7332DADFA6BE92D073C243C5CC79FEFE66","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.371038","","6112","","C:/Windows/System32/net.exe")
+b("NET  USER admin *","","MD5=8055B288B1F39855014A68BEC31D8E6D,SHA256=08F791037FD70209FD599C4F35088A7332DADFA6BE92D073C243C5CC79FEFE66","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.371038","","6124","","C:/Windows/System32/net1.exe")
+b("C:/Windows/system32/net1  USER admin *","","MD5=8055B288B1F39855014A68BEC31D8E6D,SHA256=08F791037FD70209FD599C4F35088A7332DADFA6BE92D073C243C5CC79FEFE66","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.371038","","6124","","C:/Windows/System32/net1.exe")
+b("C:/Windows/system32/net1  USER admin *","","MD5=9C911EE188F19891CD6BFFB67D0E3904,SHA256=524061B58841210842F52B7863E51953FCFF343B8C2FF46DFE9C8329BB439D46","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.371038","","6124","","C:/Windows/System32/net1.exe")
+b("C:/Windows/system32/net1  USER admin *","","MD5=9C911EE188F19891CD6BFFB67D0E3904,SHA256=524061B58841210842F52B7863E51953FCFF343B8C2FF46DFE9C8329BB439D46","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.371038","","6124","","C:/Windows/System32/net1.exe")
+b("C:/Windows/system32/net1  USER admin *","","MD5=9C911EE188F19891CD6BFFB67D0E3904,SHA256=524061B58841210842F52B7863E51953FCFF343B8C2FF46DFE9C8329BB439D46","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.588909","","6124","","C:/Windows/System32/net1.exe")
+b("C:/Windows/system32/net1  USER admin *","","MD5=9C911EE188F19891CD6BFFB67D0E3904,SHA256=524061B58841210842F52B7863E51953FCFF343B8C2FF46DFE9C8329BB439D46","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.588909","","6140","","C:/Windows/System32/wevtutil.exe")
+b("WEVTUTIL  CL Microsoft-Windows-Sysmon/Operational","","MD5=9C911EE188F19891CD6BFFB67D0E3904,SHA256=524061B58841210842F52B7863E51953FCFF343B8C2FF46DFE9C8329BB439D46","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.588909","","6140","","C:/Windows/System32/wevtutil.exe")
+b("WEVTUTIL  CL Microsoft-Windows-Sysmon/Operational","","MD5=EAFAE23B0E85D03B78D304D52CD984DC,SHA256=C4618DC5B1F77D075B473AE838604ACDDE73787BAAB28370BD3EFA8E6F70DC07","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.588909","","6140","","C:/Windows/System32/wevtutil.exe")
+b("WEVTUTIL  CL Microsoft-Windows-Sysmon/Operational","","MD5=EAFAE23B0E85D03B78D304D52CD984DC,SHA256=C4618DC5B1F77D075B473AE838604ACDDE73787BAAB28370BD3EFA8E6F70DC07","","","","","C:/file.txt:evil.exe")
+
+a("Process creation","2017-10-23 16:49:49.588909","","6140","","C:/Windows/System32/wevtutil.exe")
+b("WEVTUTIL  CL Microsoft-Windows-Sysmon/Operational","","MD5=EAFAE23B0E85D03B78D304D52CD984DC,SHA256=C4618DC5B1F77D075B473AE838604ACDDE73787BAAB28370BD3EFA8E6F70DC07","","","","","C:/file.txt:evil.exe")
+
+a("File Create","2017-10-23 16:49:49.711088","","6140","","C:/Windows/System32/wevtutil.exe")
+b("WEVTUTIL  CL Microsoft-Windows-Sysmon/Operational","","MD5=EAFAE23B0E85D03B78D304D52CD984DC,SHA256=C4618DC5B1F77D075B473AE838604ACDDE73787BAAB28370BD3EFA8E6F70DC07","","","","","C:/file.txt:evil.exe")
+
+a("File Create","2017-10-23 16:49:49.711088","","5896","","C:/Windows/system32/cmd.exe")
+b("WEVTUTIL  CL Microsoft-Windows-Sysmon/Operational","","MD5=EAFAE23B0E85D03B78D304D52CD984DC,SHA256=C4618DC5B1F77D075B473AE838604ACDDE73787BAAB28370BD3EFA8E6F70DC07","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("File Create","2017-10-23 16:49:49.711088","","5896","","C:/Windows/system32/cmd.exe")
+b("WEVTUTIL  CL Microsoft-Windows-Sysmon/Operational","","MD5=EAFAE23B0E85D03B78D304D52CD984DC,SHA256=C4618DC5B1F77D075B473AE838604ACDDE73787BAAB28370BD3EFA8E6F70DC07","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.723179","","5896","","C:/Windows/system32/cmd.exe")
+b("WEVTUTIL  CL Microsoft-Windows-Sysmon/Operational","","MD5=EAFAE23B0E85D03B78D304D52CD984DC,SHA256=C4618DC5B1F77D075B473AE838604ACDDE73787BAAB28370BD3EFA8E6F70DC07","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.723179","","3952","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=EAFAE23B0E85D03B78D304D52CD984DC,SHA256=C4618DC5B1F77D075B473AE838604ACDDE73787BAAB28370BD3EFA8E6F70DC07","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.723179","","3952","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.723179","","3952","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.723179","","3952","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.731203","","3952","","C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe")
+b("C:/Windows/Microsoft.NET/Framework/v4.0.30319/msbuild.exe  T1127.csproj","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.731203","","3916","","C:/Windows/System32/runas.exe")
+b("RUNAS  /USER:admin \C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE\","","MD5=8FAFBE3C23E2BE4D6A3C063118B9A4F2,SHA256=4C3EA4C44AAB74350355C419826B8C9E6172C3BD8F0BB5817ECF7BE50B629051","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.731203","","3916","","C:/Windows/System32/runas.exe")
+b("RUNAS  /USER:admin \C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE\","","MD5=8FE7844F70527F4B7683CE766C7CB9E4,SHA256=FFAA3419EF66FBC0649C958FAC3E3FFACA229AA70C61D310968A0F5CA4DA522B","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.731203","","3916","","C:/Windows/System32/runas.exe")
+b("RUNAS  /USER:admin \C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE\","","MD5=8FE7844F70527F4B7683CE766C7CB9E4,SHA256=FFAA3419EF66FBC0649C958FAC3E3FFACA229AA70C61D310968A0F5CA4DA522B","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:49.731203","","3916","","C:/Windows/System32/runas.exe")
+b("RUNAS  /USER:admin \C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE\","","MD5=8FE7844F70527F4B7683CE766C7CB9E4,SHA256=FFAA3419EF66FBC0649C958FAC3E3FFACA229AA70C61D310968A0F5CA4DA522B","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("File Delete","2017-10-23 16:49:49.966328","","3916","","C:/Windows/System32/runas.exe")
+b("RUNAS  /USER:admin \C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE\","","MD5=8FE7844F70527F4B7683CE766C7CB9E4,SHA256=FFAA3419EF66FBC0649C958FAC3E3FFACA229AA70C61D310968A0F5CA4DA522B","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("File Delete","2017-10-23 16:49:49.966328","","2704","","C:/Windows/System32/vssadmin.exe")
+b("vssadmin.exe Delete Shadows /All /Quiet","","MD5=8FE7844F70527F4B7683CE766C7CB9E4,SHA256=FFAA3419EF66FBC0649C958FAC3E3FFACA229AA70C61D310968A0F5CA4DA522B","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("File Delete","2017-10-23 16:49:49.966328","","2704","","C:/Windows/System32/vssadmin.exe")
+b("vssadmin.exe Delete Shadows /All /Quiet","","MD5=001C7E75A9A23E9A5BA8F0F45A596E32,SHA256=050B991BD615E74A1DB328FABA8889ADDAE380993DF8FE2E09E24668F466BC96","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("File Delete","2017-10-23 16:49:49.966328","","2704","","C:/Windows/System32/vssadmin.exe")
+b("vssadmin.exe Delete Shadows /All /Quiet","","MD5=001C7E75A9A23E9A5BA8F0F45A596E32,SHA256=050B991BD615E74A1DB328FABA8889ADDAE380993DF8FE2E09E24668F466BC96","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("File Delete","2017-10-23 16:49:49.966328","","2704","","C:/Windows/System32/vssadmin.exe")
+b("vssadmin.exe Delete Shadows /All /Quiet","","MD5=001C7E75A9A23E9A5BA8F0F45A596E32,SHA256=050B991BD615E74A1DB328FABA8889ADDAE380993DF8FE2E09E24668F466BC96","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.049568","","2704","","C:/Windows/System32/vssadmin.exe")
+b("vssadmin.exe Delete Shadows /All /Quiet","","MD5=001C7E75A9A23E9A5BA8F0F45A596E32,SHA256=050B991BD615E74A1DB328FABA8889ADDAE380993DF8FE2E09E24668F466BC96","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.049568","","2548","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -pss -s 444 -p 2704 -ip 2704","","MD5=001C7E75A9A23E9A5BA8F0F45A596E32,SHA256=050B991BD615E74A1DB328FABA8889ADDAE380993DF8FE2E09E24668F466BC96","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.049568","","2548","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -pss -s 444 -p 2704 -ip 2704","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.049568","","2548","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -pss -s 444 -p 2704 -ip 2704","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.049568","","2548","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -pss -s 444 -p 2704 -ip 2704","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.088610","","2548","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -pss -s 444 -p 2704 -ip 2704","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.088610","","4656","","C:/Windows/System32/PING.EXE")
+b("PING  -t localhost -n 600","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.088610","","4656","","C:/Windows/System32/PING.EXE")
+b("PING  -t localhost -n 600","","MD5=44AB2C101160C2C85DEAE761DE892C98,SHA256=C9B49DBF091BC66D6AEE677269C613AEDA0952DDBD113E21A6D9553C3E374D0F","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.088610","","4656","","C:/Windows/System32/PING.EXE")
+b("PING  -t localhost -n 600","","MD5=44AB2C101160C2C85DEAE761DE892C98,SHA256=C9B49DBF091BC66D6AEE677269C613AEDA0952DDBD113E21A6D9553C3E374D0F","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.088610","","4656","","C:/Windows/System32/PING.EXE")
+b("PING  -t localhost -n 600","","MD5=44AB2C101160C2C85DEAE761DE892C98,SHA256=C9B49DBF091BC66D6AEE677269C613AEDA0952DDBD113E21A6D9553C3E374D0F","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.099014","","4656","","C:/Windows/System32/PING.EXE")
+b("PING  -t localhost -n 600","","MD5=44AB2C101160C2C85DEAE761DE892C98,SHA256=C9B49DBF091BC66D6AEE677269C613AEDA0952DDBD113E21A6D9553C3E374D0F","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.099014","","4616","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=44AB2C101160C2C85DEAE761DE892C98,SHA256=C9B49DBF091BC66D6AEE677269C613AEDA0952DDBD113E21A6D9553C3E374D0F","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.099014","","4616","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.099014","","4616","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process creation","2017-10-23 16:49:50.099014","","4616","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process terminated","2017-10-23 16:49:50.620144","","4616","","C:/Windows/System32/WerFault.exe")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process terminated","2017-10-23 16:49:50.620144","","2704","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("Process terminated","2017-10-23 16:49:50.620144","","2704","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("File Create","2017-10-23 16:50:48.699669","","2704","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/Users/admin/AppData/Local/Temp/001c7e75a9a23e9a5ba8f0f45a596e32.EXE")
+
+a("File Create","2017-10-23 16:50:48.699669","","1184","","C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/temp.zip")
+
+a("File Create","2017-10-23 16:50:48.699669","","1184","","C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:50:53.055246","","1184","","C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe")
+b("C:/Windows/system32/WerFault.exe -u -p 2704 -s 280","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:50:53.055246","","5008","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=688ED70237668A4AC3DDDC6F9C5FA979,SHA256=98C1D80FFCC985B270DBAE237D737E574C0085FFB1E60519814608BDB770D093","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:50:53.055246","","5008","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:50:53.055246","","5008","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:50:53.055246","","5008","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:51:06.203152","","5008","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:51:06.203152","","5476","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/System32/svchost.exe -k NetworkService -p","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:51:06.203152","","5476","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/System32/svchost.exe -k NetworkService -p","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:51:06.203152","","5476","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/System32/svchost.exe -k NetworkService -p","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:51:06.203152","","5476","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/System32/svchost.exe -k NetworkService -p","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.884903","","5476","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/System32/svchost.exe -k NetworkService -p","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.884903","","3436","","C:/Windows/System32/wsqmcons.exe")
+b("C:/Windows/System32/wsqmcons.exe","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.884903","","3436","","C:/Windows/System32/wsqmcons.exe")
+b("C:/Windows/System32/wsqmcons.exe","","MD5=19EA2AA4FC1A4D6977E6A345105D995F,SHA256=028186580A3DE978C19637CC062C3750F70341ACFC73118AC361C1CD5CB6B22C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.884903","","3436","","C:/Windows/System32/wsqmcons.exe")
+b("C:/Windows/System32/wsqmcons.exe","","MD5=19EA2AA4FC1A4D6977E6A345105D995F,SHA256=028186580A3DE978C19637CC062C3750F70341ACFC73118AC361C1CD5CB6B22C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.884903","","3436","","C:/Windows/System32/wsqmcons.exe")
+b("C:/Windows/System32/wsqmcons.exe","","MD5=19EA2AA4FC1A4D6977E6A345105D995F,SHA256=028186580A3DE978C19637CC062C3750F70341ACFC73118AC361C1CD5CB6B22C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.913059","","3436","","C:/Windows/System32/wsqmcons.exe")
+b("C:/Windows/System32/wsqmcons.exe","","MD5=19EA2AA4FC1A4D6977E6A345105D995F,SHA256=028186580A3DE978C19637CC062C3750F70341ACFC73118AC361C1CD5CB6B22C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.913059","","2732","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource scheduler","","MD5=19EA2AA4FC1A4D6977E6A345105D995F,SHA256=028186580A3DE978C19637CC062C3750F70341ACFC73118AC361C1CD5CB6B22C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.913059","","2732","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource scheduler","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.913059","","2732","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource scheduler","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.913059","","2732","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource scheduler","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.915947","","2732","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource scheduler","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.915947","","2728","","C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe")
+b("\C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe\","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.915947","","2728","","C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe")
+b("\C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe\","","MD5=F2FF574F6F2211D9AAAE5E82A3AD553F,SHA256=392CDC901BE6CC617E9F5C720EB0C3244F3082D63AC6CAE8BEDB029BC7069D69","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.915947","","2728","","C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe")
+b("\C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe\","","MD5=F2FF574F6F2211D9AAAE5E82A3AD553F,SHA256=392CDC901BE6CC617E9F5C720EB0C3244F3082D63AC6CAE8BEDB029BC7069D69","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.915947","","2728","","C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe")
+b("\C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe\","","MD5=F2FF574F6F2211D9AAAE5E82A3AD553F,SHA256=392CDC901BE6CC617E9F5C720EB0C3244F3082D63AC6CAE8BEDB029BC7069D69","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.918312","","2728","","C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe")
+b("\C:/Program Files/Common Files/Adobe/ARM/1.0/AdobeARM.exe\","","MD5=F2FF574F6F2211D9AAAE5E82A3AD553F,SHA256=392CDC901BE6CC617E9F5C720EB0C3244F3082D63AC6CAE8BEDB029BC7069D69","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.918312","","4496","","C:/Windows/System32/SIHClient.exe")
+b("C:/Windows/System32/sihclient.exe","","MD5=F2FF574F6F2211D9AAAE5E82A3AD553F,SHA256=392CDC901BE6CC617E9F5C720EB0C3244F3082D63AC6CAE8BEDB029BC7069D69","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.918312","","4496","","C:/Windows/System32/SIHClient.exe")
+b("C:/Windows/System32/sihclient.exe","","MD5=71549972C127517789BAFD0D0CF48A8C,SHA256=281F8BEA0A44312557C6CBE8C0974FB60C231DBA8A91D4646FA88B58D3890C7C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.918312","","4496","","C:/Windows/System32/SIHClient.exe")
+b("C:/Windows/System32/sihclient.exe","","MD5=71549972C127517789BAFD0D0CF48A8C,SHA256=281F8BEA0A44312557C6CBE8C0974FB60C231DBA8A91D4646FA88B58D3890C7C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:04.918312","","4496","","C:/Windows/System32/SIHClient.exe")
+b("C:/Windows/System32/sihclient.exe","","MD5=71549972C127517789BAFD0D0CF48A8C,SHA256=281F8BEA0A44312557C6CBE8C0974FB60C231DBA8A91D4646FA88B58D3890C7C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:05.229815","","4496","","C:/Windows/System32/SIHClient.exe")
+b("C:/Windows/System32/sihclient.exe","","MD5=71549972C127517789BAFD0D0CF48A8C,SHA256=281F8BEA0A44312557C6CBE8C0974FB60C231DBA8A91D4646FA88B58D3890C7C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:05.229815","","4976","","C:/Program Files/Adobe/Acrobat Reader DC/Reader/reader_sl.exe")
+b("\C:/Program Files/Adobe/Acrobat Reader DC/Reader/Reader_sl.exe\","","MD5=71549972C127517789BAFD0D0CF48A8C,SHA256=281F8BEA0A44312557C6CBE8C0974FB60C231DBA8A91D4646FA88B58D3890C7C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:05.229815","","4976","","C:/Program Files/Adobe/Acrobat Reader DC/Reader/reader_sl.exe")
+b("\C:/Program Files/Adobe/Acrobat Reader DC/Reader/Reader_sl.exe\","","MD5=D0B23D1F0D1D730493CF89BE5DCBBB4E,SHA256=A8F964BB1623295131320F9A0A3817C5EA9318485C849AC5DCBF0255C9263DEA","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:05.229815","","4976","","C:/Program Files/Adobe/Acrobat Reader DC/Reader/reader_sl.exe")
+b("\C:/Program Files/Adobe/Acrobat Reader DC/Reader/Reader_sl.exe\","","MD5=D0B23D1F0D1D730493CF89BE5DCBBB4E,SHA256=A8F964BB1623295131320F9A0A3817C5EA9318485C849AC5DCBF0255C9263DEA","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:05.229815","","4976","","C:/Program Files/Adobe/Acrobat Reader DC/Reader/reader_sl.exe")
+b("\C:/Program Files/Adobe/Acrobat Reader DC/Reader/Reader_sl.exe\","","MD5=D0B23D1F0D1D730493CF89BE5DCBBB4E,SHA256=A8F964BB1623295131320F9A0A3817C5EA9318485C849AC5DCBF0255C9263DEA","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:46.361252","","4976","","C:/Program Files/Adobe/Acrobat Reader DC/Reader/reader_sl.exe")
+b("\C:/Program Files/Adobe/Acrobat Reader DC/Reader/Reader_sl.exe\","","MD5=D0B23D1F0D1D730493CF89BE5DCBBB4E,SHA256=A8F964BB1623295131320F9A0A3817C5EA9318485C849AC5DCBF0255C9263DEA","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:46.361252","","1540","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=D0B23D1F0D1D730493CF89BE5DCBBB4E,SHA256=A8F964BB1623295131320F9A0A3817C5EA9318485C849AC5DCBF0255C9263DEA","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:46.361252","","1540","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:46.361252","","1540","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:52:46.361252","","1540","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:05.752542","","1540","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:05.752542","","3776","","C:/Windows/System32/wbem/WMIADAP.exe")
+b("wmiadap.exe /F /T /R","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:05.752542","","3776","","C:/Windows/System32/wbem/WMIADAP.exe")
+b("wmiadap.exe /F /T /R","","MD5=F2B8F81492DFDE01DEF40E57927ABD25,SHA256=7DEAACF1B7031400AAE903B4976E898DAA1CF3B7B619A7BCB05B83A7D0FCEC06","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:05.752542","","3776","","C:/Windows/System32/wbem/WMIADAP.exe")
+b("wmiadap.exe /F /T /R","","MD5=F2B8F81492DFDE01DEF40E57927ABD25,SHA256=7DEAACF1B7031400AAE903B4976E898DAA1CF3B7B619A7BCB05B83A7D0FCEC06","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:05.752542","","3776","","C:/Windows/System32/wbem/WMIADAP.exe")
+b("wmiadap.exe /F /T /R","","MD5=F2B8F81492DFDE01DEF40E57927ABD25,SHA256=7DEAACF1B7031400AAE903B4976E898DAA1CF3B7B619A7BCB05B83A7D0FCEC06","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:07.491655","","3776","","C:/Windows/System32/wbem/WMIADAP.exe")
+b("wmiadap.exe /F /T /R","","MD5=F2B8F81492DFDE01DEF40E57927ABD25,SHA256=7DEAACF1B7031400AAE903B4976E898DAA1CF3B7B619A7BCB05B83A7D0FCEC06","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:07.491655","","5872","","C:/Windows/System32/RuntimeBroker.exe")
+b("C:/Windows/System32/RuntimeBroker.exe -Embedding","","MD5=F2B8F81492DFDE01DEF40E57927ABD25,SHA256=7DEAACF1B7031400AAE903B4976E898DAA1CF3B7B619A7BCB05B83A7D0FCEC06","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:07.491655","","5872","","C:/Windows/System32/RuntimeBroker.exe")
+b("C:/Windows/System32/RuntimeBroker.exe -Embedding","","MD5=EE6C021CE9DF96EB64C1202927B99E8C,SHA256=0C3152B1B962478CFED60C526785A119172D2DB488EE753D8A6A9AAE6184DAA6","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:07.491655","","5872","","C:/Windows/System32/RuntimeBroker.exe")
+b("C:/Windows/System32/RuntimeBroker.exe -Embedding","","MD5=EE6C021CE9DF96EB64C1202927B99E8C,SHA256=0C3152B1B962478CFED60C526785A119172D2DB488EE753D8A6A9AAE6184DAA6","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:53:07.491655","","5872","","C:/Windows/System32/RuntimeBroker.exe")
+b("C:/Windows/System32/RuntimeBroker.exe -Embedding","","MD5=EE6C021CE9DF96EB64C1202927B99E8C,SHA256=0C3152B1B962478CFED60C526785A119172D2DB488EE753D8A6A9AAE6184DAA6","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:54:14.843594","","5872","","C:/Windows/System32/RuntimeBroker.exe")
+b("C:/Windows/System32/RuntimeBroker.exe -Embedding","","MD5=EE6C021CE9DF96EB64C1202927B99E8C,SHA256=0C3152B1B962478CFED60C526785A119172D2DB488EE753D8A6A9AAE6184DAA6","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:54:14.843594","","5456","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Logon","","MD5=EE6C021CE9DF96EB64C1202927B99E8C,SHA256=0C3152B1B962478CFED60C526785A119172D2DB488EE753D8A6A9AAE6184DAA6","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:54:14.843594","","5456","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Logon","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:54:14.843594","","5456","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Logon","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:54:14.843594","","5456","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Logon","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:57:32.318785","","5456","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Logon","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:57:32.318785","","4676","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource core","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:57:32.318785","","4676","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource core","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:57:32.318785","","4676","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource core","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:57:32.318785","","4676","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource core","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:58:30.976522","","4676","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /ua /installsource core","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:58:30.976522","","5244","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:58:30.976522","","5244","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:58:30.976522","","5244","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:58:30.976522","","5244","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:07.000498","","5244","","C:/Program Files/Google/Update/GoogleUpdate.exe")
+b("\C:/Program Files/Google/Update/GoogleUpdate.exe\ /svc","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:07.000498","","5764","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/system32/svchost.exe -k wsappx -p","","MD5=0545A3EB959CFA4790D267BFB8C1ACA4,SHA256=69061E33ACB7587D773D05000390F9101F71DFD6EED7973B551594EAF3F04193","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:07.000498","","5764","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/system32/svchost.exe -k wsappx -p","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:07.000498","","5764","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/system32/svchost.exe -k wsappx -p","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:07.000498","","5764","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/system32/svchost.exe -k wsappx -p","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.540623","","5764","","C:/Windows/System32/svchost.exe")
+b("C:/Windows/system32/svchost.exe -k wsappx -p","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.540623","","872","","C:/Windows/System32/provtool.exe")
+b("C:/Windows/system32/ProvTool.exe /turn 5 /source LogonIdleTask","","MD5=15556928CB0E9F74F4036411D8CC111E,SHA256=1030CE4102DAC701FAB043E40444E8F6C96C8C04B5BD512A59E1A4999D22B38C","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.540623","","872","","C:/Windows/System32/provtool.exe")
+b("C:/Windows/system32/ProvTool.exe /turn 5 /source LogonIdleTask","","MD5=897AF21D4F49E3BE301304EA24D2A16E,SHA256=2947B852B6D673844F5138947066151C66ED0819699499509E1674A5398C4AAC","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.540623","","872","","C:/Windows/System32/provtool.exe")
+b("C:/Windows/system32/ProvTool.exe /turn 5 /source LogonIdleTask","","MD5=897AF21D4F49E3BE301304EA24D2A16E,SHA256=2947B852B6D673844F5138947066151C66ED0819699499509E1674A5398C4AAC","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.540623","","872","","C:/Windows/System32/provtool.exe")
+b("C:/Windows/system32/ProvTool.exe /turn 5 /source LogonIdleTask","","MD5=897AF21D4F49E3BE301304EA24D2A16E,SHA256=2947B852B6D673844F5138947066151C66ED0819699499509E1674A5398C4AAC","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.542713","","872","","C:/Windows/System32/provtool.exe")
+b("C:/Windows/system32/ProvTool.exe /turn 5 /source LogonIdleTask","","MD5=897AF21D4F49E3BE301304EA24D2A16E,SHA256=2947B852B6D673844F5138947066151C66ED0819699499509E1674A5398C4AAC","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.542713","","4220","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Event","","MD5=897AF21D4F49E3BE301304EA24D2A16E,SHA256=2947B852B6D673844F5138947066151C66ED0819699499509E1674A5398C4AAC","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.542713","","4220","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Event","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.542713","","4220","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Event","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.542713","","4220","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Event","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.564459","","4220","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe Event","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.564459","","4660","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe -IntegrityCheck","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.564459","","4660","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe -IntegrityCheck","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.564459","","4660","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe -IntegrityCheck","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:21.564459","","4660","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe -IntegrityCheck","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:22.240915","","4660","","C:/Windows/System32/taskhostw.exe")
+b("taskhostw.exe -IntegrityCheck","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:22.240915","","5092","","C:/Windows/System32/tree.com")
+b("tree  /F","","MD5=8BE99F1A9B787853F9B97AE6F8BD7B91,SHA256=8DDAD6B0FABE792B419E42103864F96119C078897D803B8EB4BE0DA44FD6F16E","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:22.240915","","5092","","C:/Windows/System32/tree.com")
+b("tree  /F","","MD5=3F1DB41DF4A7A152DAF4E4EDF0B2635F,SHA256=CE11C3E4ADA6350EA2D0C9C469F65BFB1598CFE5552ACF1714A6E14FA95CCF06","","","","","C:/temp.zip")
+
+a("Process creation","2017-10-23 16:59:22.240915","","5092","","C:/Windows/System32/tree.com")
+b("tree  /F","","MD5=3F1DB41DF4A7A152DAF4E4EDF0B2635F,SHA256=CE11C3E4ADA6350EA2D0C9C469F65BFB1598CFE5552ACF1714A6E14FA95CCF06","","","","","C:/temp.zip")
+
